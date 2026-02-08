@@ -1,0 +1,24 @@
+# Interview Copilot Extension - Task List
+
+- [/] Project Setup
+    - [/] Create project directory and file structure
+    - [ ] Create `manifest.json`
+    - [ ] Set up icons and basic assets
+- [ ] Content Script (The "Visual Spy")
+    - [ ] Implement Dom Observer for Google Meet captions
+    - [ ] Implement Dom Observer for YouTube captions (for testing)
+    - [ ] send captions to background/storage
+- [ ] Background/Storage (The "Temporary Memory")
+    - [ ] Implement caption buffering logic (FIFO queue)
+    - [ ] specific context storage (Resume/PDF text)
+- [ ] Gemini Integration (The "Brain")
+    - [ ] Setup Gemini API client
+    - [ ] Create prompt engineering structure (Context + Resume + Question)
+- [ ] User Interface
+    - [ ] Create Configuration Popup (API Key, User Context input)
+    - [ ] Create "Teleprompter" Floating UI (Injected into page)
+    - [ ] Implement "Help Me Now" button interaction
+- [ ] Verification
+    - [ ] Test on YouTube (simulated meet)
+    - [ ] Test caption reading accuracy
+    - [ ] Test latency of Gemini response
